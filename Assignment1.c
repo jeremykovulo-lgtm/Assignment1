@@ -1,4 +1,7 @@
 #include <stdio.h>
+/*Name: Jeremy Kovulo
+  Admission number:BCS-05-0070/2026
+    */
 int main(){
     printf("1.Introduction to programming \n");
     printf("2.Data Structures \n");
