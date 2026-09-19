@@ -8,4 +8,5 @@ int main(){
     printf("3.Basic mathematics");
     printf("Computaion Logic");
     printf("Introduction to Physics");
+  return 0;
 }
