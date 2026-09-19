@@ -13,6 +13,6 @@ int main(){
  scanf("%f",&height);
  float Volume=pie*pow(radius,2)*height;
  float Surface_area=(pie*pow(radius,2))+(2*pie*radius*height);
- printf("Volume =\t%f",Volume);
+ printf("Volume =\t%f\n",Volume);
  printf("Surface area =\t%f",Surface_area);
 }
