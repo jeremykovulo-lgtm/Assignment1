@@ -1,3 +1,6 @@
+/*Name: Jeremy Kovulo
+  Admission number:BCS-05-0070/2026
+    */
 #include <stdio.h>
 int main(){
     printf("1.Digital literacy");
