@@ -1,5 +1,6 @@
-/*Name: Jeremy Kovulo
+/*Name:Jeremy Kovulo
   Admission number:BCS-05-0070/2026
+  Course:BCS
     */
 #include <stdio.h>
 float height;
