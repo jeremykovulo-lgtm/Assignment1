@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int calculateTotal(int s1,int s2,int s3){
+int calculateTotal(int s1r,int s2,int s3){
 
     return(s1+s2+s3);
 }
