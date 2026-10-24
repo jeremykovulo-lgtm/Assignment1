@@ -2,15 +2,18 @@
   Admission number:BCS-05-0070/2026
     */
 #include <stdio.h>
-#include <math.h>
+
+float convertToCelsius(float fahrenheit){
+    return (fahrenheit - 32.0) * (5.0 / 9.0);
+}
+
 int main(){
-    float length,width,diagonal;
-    printf("Enter length and width\n");
-    scanf("%f%f",&length,&width);
-    diagonal=sqrt(pow(length,2)+pow(width,2));
-    printf("Length = %f\n",length);
-    printf("Width = %f\n",width);
-    printf("The diagonal is %f",diagonal);
+    float fahrenheit, celsius;
+    printf("Enter temperature in Fahrenheit: ");
+    scanf("%f", &fahrenheit);
+
+    celsius = convertToCelsius(fahrenheit);
+    printf("Temperature in Celsius = %.2f\n", celsius);
+
     return 0;
 }
-//sqrt() is a function used to calculate the square root of numbers entered inside
